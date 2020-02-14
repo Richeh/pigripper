@@ -1,0 +1,25 @@
+
+{
+    "entries": [
+        {
+            "id": "",
+            "title": "",
+            "date": "{# combine `datein` and `timein` #}",
+            "snippet": "",
+            "url": "",
+            "newsregion": "{# `news` table only. remote lookup from `regions` - allow sub from array #}",
+            "category": [
+                "{# `category` #}",
+                "{# foreign-field lookup from `article_categories_linker` #}"
+            ],
+            "hidden": "",
+            "advertiser": "{# foreign-field lookup from `advertisers` - output `name` #}",
+            "articletext": "{# contains some pretty nasty HTML! Beware of invalid chars! #}",
+            "country": "{# allow me to substitute from an array #}",
+            "author": "{# allow substitution from an array #}",
+            "imagelibid": "{# foreign-field lookup from `imagelibid` - output `filename` #}",
+            "video_url": "",
+            "url_name": ""
+        }
+    ]
+}
